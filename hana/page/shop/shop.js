@@ -69,7 +69,7 @@ function menuShop(){
         listMenuEl[i].addEventListener("click",function(){
             localStorage.setItem("localSanPham",listMenu[i].name);
             localStorage.setItem("giaSanPham",listMenu[i].money)
-            window.open("/doan/page/sanpham/index.html","_self")
+            window.open("./hana/page/sanpham/index.html","_self")
         })
     }
     let listText;
