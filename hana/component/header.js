@@ -8,17 +8,17 @@ document.getElementById("header").innerHTML =
             '</button>'+
             '<div class="dropdown-content bar-block card-4 animate-left" style="display: block;width:50%;height:100%">'+
                 '<a class="button bar-item" href="#">Giới thiệu</a>'+
-                '<a class="button bar-item" href="/hana/page/shop/index.html">Menu nước</a>'+
+                '<a class="button bar-item" href="./hana/page/shop/index.html">Menu nước</a>'+
                 '<a class="button bar-item" href="#">Hệ thống cửa hàng</a>'+
                 '<a class="button bar-item" href="#">Nhượng quyền</a>'+
                 '<a class="button bar-item" href="#">Tuyển dụng</a><a class="button bar-item" href="#">Liên hệ</a>'+
             '</div>'+
         '</div>'+
         '<a class="bar-item" href="/">'+
-            '<img class="image logo" src="/hana/img/—Pngtree—coffee_3626459.png" alt=""style="height: 20px;transform: scale(1.5);">'+
+            '<img class="image logo" src="./hana/img/—Pngtree—coffee_3626459.png" alt=""style="height: 20px;transform: scale(1.5);">'+
         '</a>'+
         '<a class="bar-item button hide-mobile">Giới thiệu</a>'+
-        '<a class="bar-item button hide-mobile" href="/hana/page/shop/index.html">Menu nước</a>'+
+        '<a class="bar-item button hide-mobile" href="./hana/page/shop/index.html">Menu nước</a>'+
         '<a class="bar-item button hide-ipad">Hệ thống cửa hàng</a><a class="bar-item button hide-ipad">Nhượng quyền</a>'+
         '<a class="bar-item button hide-ipad">Tuyển dụng</a><a class="bar-item button hide-ipad">Liên hệ</a>'+
         '<div class="dropdown-hover hide-mobile show-ipad">'+
@@ -47,5 +47,5 @@ function showHideMenu(event,exam){
     }
 }
 document.getElementsByClassName("hana-cart")[0].addEventListener("click",function(){
-    window.open('/hana/page/giohang/index.html','_self');
+    window.open('./hana/page/giohang/index.html','_self');
 })
